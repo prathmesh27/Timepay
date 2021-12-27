@@ -1,0 +1,223 @@
+@media (max-width	:1199px){
+	.testimonial .carousel-control-prev {
+    left: 25.5rem;
+    top: 22rem;
+}.testimonial .carousel-control-next {
+    right: 25.5rem;
+    top: 22rem;
+}
+}
+@media  (max-width: 1100px){
+	.single-course-section .singer-para p, .about-content p,
+	.testimonial p, .intro-inner p, .testimonial-section .testi-inner p{
+		height: unset;
+		min-height: unset;
+	}
+.testimonial .carousel-control-prev {
+    left: 45%;
+    top: unset;
+    bottom: -11rem;
+}
+.testimonial .carousel-control-next {
+    top: unset;
+    right: 45%;
+    bottom: -11rem;
+}
+
+}
+@media (max-width: 767px){
+	
+	.testimonial .carousel-control-prev {
+    left: 45%;
+    top: unset;
+    bottom: -11rem;
+}
+.testimonial .carousel-control-next {
+    top: unset;
+    right: 45%;
+    bottom: -11rem;
+}
+.btn{
+	margin:auto	;
+}
+.order1{
+	order: 	1;
+}
+.order2{
+	order: 	2;
+}
+.mt-mob-1{
+	margin-top: 2rem;
+}
+.vision-sec .vision-inner .vision-icon {
+    width: 300px;
+}
+.vision-sec .vision-inner p {
+    text-align: justify;
+}
+.mobile-bg-img{
+	display: block;
+}
+.desktop-bg-img,
+.brand-name{
+	display: none;
+}
+.con_ab{
+	top: 4rem;
+}
+.logo-sec img{
+	width: 100px;
+}
+}
+@media  (max-width: 690px){
+    .map-sec{
+        width:100%;
+    }
+	.header-sec .brand-name p{
+		padding: 0 20px;
+	}
+.testimonial .carousel-control-prev {
+    left: 184px;
+    top: unset;
+    bottom: -11rem;
+}
+.testimonial .carousel-control-next {
+    top: unset;
+    right: 164px;
+    bottom: -11rem;
+}
+.map-sec{
+	width: 100%;
+}
+.contact-us-sec .login-sec form{
+	margin-top: 2rem;
+}
+.login-sec form{
+	padding: 1.5rem 1rem;
+}
+.order1{
+    order:1;
+}
+.order2{
+    order:2;
+}
+.about-content, .about-content h2{
+    text-align:center !important;
+}
+}
+@media  (max-width: 480px){
+    .header-sec .brand-name h1{
+        margin:2rem 0;
+        padding:0 10px;
+    }
+	.top-sec{
+		padding: .4rem;
+	}
+	.about-us-sec{
+	    padding:2rem 0;
+	}
+	.header-sec ul li a, .top-sec ul li a, .navbar-desktop ul li a {
+    	font-size: 14px;
+	}
+	.nav{
+		padding: 3px 5px;
+	}
+	.navbar-light .navbar-toggler{
+		padding: 0 10px;
+	}
+	.login-sec form{
+		width: 	310px;
+	}
+	.login-sec form h2{
+		font-size: 	20px;
+	}
+	.ca{
+		font-size: 	12px;
+	}
+	.login{
+		xheight: 	125vh;
+	}
+	.header-sec .brand-name h1 {
+    font-size: 23px;
+}
+	.header-sec .top-sec a {
+    color: #fff;
+    font-size: 15px;
+}
+.header-sec .top-sec .call {
+    font-size: 12px;
+}
+	.sub-heading{
+		text-align: justify;
+	}
+	.testimonial p,
+	.sub-heading{
+		width: 	100%;
+	}
+	.banner-sec{
+		height: 300px;
+		background-size: cover;
+	}
+	.banner-heading{
+		width: 100%;
+		    xtransform: translateX(-48%) translateY(-50%);
+	}
+	.breadcrum {
+    	margin-top: 1rem;
+	}
+	.banner-heading h1 {
+    	font-size: 20px;
+	}
+	.banner-heading h1 img {
+    width: 46px;
+    margin-right: 10px;
+	}
+	.sub-heading{
+		text-align: justify;
+	}
+	.single-course-section .singer-details,
+	.intro-inner .heading{
+		padding-top: 1rem;
+	}
+	.intro-inner p{
+		width: 100%;
+	}
+	.single-course-section .singer-details .singer-name h2 {
+    	font-size: 17px;
+	}
+	.single-course-section .singer-para p, .about-content p, .testimonial p, .intro-inner p, .testimonial-section .testi-inner p{
+		min-height: unset;
+		height: unset;
+		text-align: justify;
+	}
+	.single-course-section .singer-para p.cost{
+		font-size: 20px;
+	}
+	.testimonial-section .testi-inner p{
+		text-align: center;
+	}
+	.menu-footer ul{
+		flex-wrap: wrap;
+	}
+	.menu-footer ul li a{
+		display: block;
+		margin: 1rem;
+	}
+	.bg_1 p{
+		line-height: 2;
+	}
+	.heading{
+	    padding-top:0;
+	}
+	.testimonial .carousel-control-next {
+    		right: 108px;
+    		top: 25rem;  
+	}
+	.testimonial .carousel-control-prev {
+    left: 111px;
+    top: 25rem;
+    }
+    .techer-sec form {
+        width:100% !important;
+    }
+}
