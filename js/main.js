@@ -92,6 +92,7 @@
                 AOS.init();
                 var owl = $('.screenshot_slider').owlCarousel({
                 loop: true,
+                dots:false,
                 responsiveClass: true,
                 nav: true,
                 margin: 0,    

@@ -1173,3 +1173,6 @@ footer p{
   top: 9rem;
   z-index:  999999;
 }
+.grey-sec{
+  background-color: #f6f6f6;
+}
