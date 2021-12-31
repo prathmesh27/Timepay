@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>	</title>
+</head>
+<style type="text/css">
+	div:not(.wrapper) {
+  height: 100vh;
+}
+
+.wrapper {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.wrapper > img {
+  position: absolute;
+}
+body{
+  overflow-x:   hidden;
+}
+</style>
+<body>
+<div class="spacer"></div>
+
+<div id="animate">
+   <div class="wrapper">
+      <img src="images/bg.png"  id="img1" class="animate-img" >
+  </div>
+  <div class="wrapper">
+    <img src="images/bg.png"  id="img2" class="animate-img" >
+  </div>
+  <div class="wrapper">
+      <video autoplay muted loop  src="images/video2.mp4" loop="" muted="" autoplay=""></video>  
+  </div>
+  </div>
+
+<div class="spacer"></div>
+<script type="text/javascript" src="https://unpkg.co/gsap@3/dist/gsap.min.js"></script>
+<script type="text/javascript" src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>
+<script type="text/javascript">
+	gsap.set(".wrapper", {zIndex: (i, target, targets) => targets.length - i});
+gsap.set(".wrapper > img", {zIndex: (i, target, targets) => targets.length - i});
+
+var allIMGs = gsap.utils.toArray(".animate-img");
+allIMGsNotLast = allIMGs.slice(0, -1);
+
+var next = 1,
+    fade = .3
+
+var action = gsap.timeline({defaults:{ease:'none', stagger:next}})
+
+.from(allIMGs.slice(1), {autoAlpha: 0}, 0)
+.to(allIMGsNotLast, {autoAlpha:0, duration: fade}, 0) 
+
+
+ScrollTrigger.create({
+  trigger: '#animate',
+  start: 'top center',
+  end: 'bottom center',
+  animation: action,
+  markers: true,
+  scrub: true,
+  toggleActions: "restart pause reverse pause"
+});
+</script>
+</body>
+</html>
