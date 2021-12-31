@@ -780,7 +780,7 @@ video {
 }
 
 .inner-img {
-	cursor: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1581299/profile/profile-80.jpg), auto;
+	cursor: url(https://dummyimage.com/600x400/000/fff), auto;
 
 	/*cursor: url(../images/icons/explore.png), auto;*/
   transition: 0.3s;
@@ -1175,4 +1175,62 @@ footer p{
 }
 .grey-sec{
   background-color: #f6f6f6;
+}
+
+ .contact-us
+.form-control{
+  border: 1px solid var(--color-blue-logo);
+  border-radius: 0 0 20px 0;
+}
+
+ .contact-us form{
+    padding: 3rem 0;
+ }
+  .contact-us form span{
+    color: red;
+  }
+  .contact-us label{
+    font-weight: 500;
+  }
+  .address-sec .addrss-internal {
+    box-shadow: 12px 12px 24px #babdf24d;
+    border-radius: 16px;
+    position: relative;
+    background: #fff;
+    padding: 3rem 2rem;
+    margin: 1.4rem;
+    height: 280px;
+}
+.address-sec .addrss-internal ul li {
+    font-size: 13px;
+    line-height: 1.6;
+    font-weight: 500;
+}
+.address-sec .addrss-internal 
+h2{
+    color: #020e90;
+    font-size: 24px;
+    margin-bottom: 2rem;
+    font-weight: bolder;
+}
+.address-sec .addrss-internal .back {
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+}
+.address-sec .addrss-internal h3 {
+    font-size: 14px;
+    color: #565657;
+    font-weight: bolder;
+    margin-bottom: 0.5rem;
+}
+.address-sec .addrss-internal a {
+    color: #565657;
+    font-size: 14px;
+    font-weight: 500;
+}
+.address-sec .addrss-internal .back2 {
+    position: absolute;
+    top: 0px;
+    right: 0;
 }
