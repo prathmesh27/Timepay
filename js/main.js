@@ -105,7 +105,7 @@
                 items: 1,
                 },
                 600: {
-                items: 5
+                items: 3
                 },
                 1200: {
                 items: 5

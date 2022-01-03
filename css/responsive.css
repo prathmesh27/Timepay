@@ -1,223 +1,133 @@
-@media (max-width	:1199px){
-	.testimonial .carousel-control-prev {
-    left: 25.5rem;
-    top: 22rem;
-}.testimonial .carousel-control-next {
-    right: 25.5rem;
-    top: 22rem;
-}
-}
-@media  (max-width: 1100px){
-	.single-course-section .singer-para p, .about-content p,
-	.testimonial p, .intro-inner p, .testimonial-section .testi-inner p{
-		height: unset;
-		min-height: unset;
-	}
-.testimonial .carousel-control-prev {
-    left: 45%;
-    top: unset;
-    bottom: -11rem;
-}
-.testimonial .carousel-control-next {
-    top: unset;
-    right: 45%;
-    bottom: -11rem;
-}
+@media screen and (max-width: 993px){
 
-}
-@media (max-width: 767px){
-	
-	.testimonial .carousel-control-prev {
-    left: 45%;
-    top: unset;
-    bottom: -11rem;
-}
-.testimonial .carousel-control-next {
-    top: unset;
-    right: 45%;
-    bottom: -11rem;
-}
-.btn{
-	margin:auto	;
-}
-.order1{
-	order: 	1;
-}
-.order2{
-	order: 	2;
-}
-.mt-mob-1{
-	margin-top: 2rem;
-}
-.vision-sec .vision-inner .vision-icon {
-    width: 300px;
-}
-.vision-sec .vision-inner p {
-    text-align: justify;
-}
-.mobile-bg-img{
-	display: block;
-}
-.desktop-bg-img,
-.brand-name{
-	display: none;
-}
-.con_ab{
-	top: 4rem;
-}
-.logo-sec img{
-	width: 100px;
-}
-}
-@media  (max-width: 690px){
-    .map-sec{
-        width:100%;
-    }
-	.header-sec .brand-name p{
-		padding: 0 20px;
+	.fri{
+		display: block;
+		    float: right;
+    margin: 20px -26px;
 	}
-.testimonial .carousel-control-prev {
-    left: 184px;
-    top: unset;
-    bottom: -11rem;
-}
-.testimonial .carousel-control-next {
-    top: unset;
-    right: 164px;
-    bottom: -11rem;
-}
-.map-sec{
-	width: 100%;
-}
-.contact-us-sec .login-sec form{
-	margin-top: 2rem;
-}
-.login-sec form{
-	padding: 1.5rem 1rem;
-}
-.order1{
-    order:1;
-}
-.order2{
-    order:2;
-}
-.about-content, .about-content h2{
-    text-align:center !important;
-}
-}
-@media  (max-width: 480px){
-    .header-sec .brand-name h1{
-        margin:2rem 0;
-        padding:0 10px;
-    }
-	.top-sec{
-		padding: .4rem;
+	 .menu-item-has-children  .menu-subs a:after,
+	 .author-img{
+		display:none;
 	}
-	.about-us-sec{
-	    padding:2rem 0;
+	.banner{
+		padding-top: 143px;
 	}
-	.header-sec ul li a, .top-sec ul li a, .navbar-desktop ul li a {
-    	font-size: 14px;
+	.video {
+		xheight: 170vh;
 	}
-	.nav{
-		padding: 3px 5px;
+	.footer-link .fli{
+		display: block;
 	}
-	.navbar-light .navbar-toggler{
-		padding: 0 10px;
+	.footer-link .fli li a{
+		width: 100%;
+		margin: 10px 0;
+		display: block;
 	}
-	.login-sec form{
-		width: 	310px;
+	.ci{
+		flex-wrap: nowrap;
 	}
-	.login-sec form h2{
-		font-size: 	20px;
+	.ci li{
+		width: 40px !important;
 	}
-	.ca{
-		font-size: 	12px;
+
+	.ll2 li {
+		width: 100% !important;	
 	}
-	.login{
-		xheight: 	125vh;
-	}
-	.header-sec .brand-name h1 {
-    font-size: 23px;
+
+.Reimagine-sec video{
+	min-height: 200vh;
 }
-	.header-sec .top-sec a {
-    color: #fff;
-    font-size: 15px;
 }
-.header-sec .top-sec .call {
-    font-size: 12px;
-}
-	.sub-heading{
-		text-align: justify;
+@media screen and (max-width: 767px){
+	.scroll-header-sec{
+		display:none;
 	}
-	.testimonial p,
-	.sub-heading{
+	.explore-mobile-view{
+		position: absolute;
+		display: block;
+    width: 75px;
+    right: 0;
+    top: 300px;
+	}
+	.screenshot_slider a{
+		color: #000;
+		text-decoration: none;
+	}
+		.header-item-right a{
+		height: 	50px;
+	}
+	.pt-common{
+		xpadding-top: 	66px;
+	}
+	.footer-link,
+	.footer-link ul{
+		flex-wrap: 	wrap	;
+	}
+	.oss img{
+		height:100vh;
+	}
+	.banner-caption h1,
+	.Shareholders h2,
+	.common-header h2{
+		font-size: 	30px;
+	}
+	.rec-con{
+		width: 	75%;
+	}
+	.social-media-fixed,
+	.address-sec .addrss-internal .back,
+	.address-sec .addrss-internal .back2{
+		display: 	none;
+	}
+	.address-sec .addrss-internal{
+		margin:1rem 0;
+	}
+	.pt0{
+		padding: 0 25px;
+	}
+	.pt-padding {
+    padding: 0rem;
+}
+.voices  h3{
+	font-size:18px;
+}
+	.Shareholders{
+		width: 	90%;
+	}
+	.bell,.author-img{
+		display: 	none;
+	}
+	.banner-caption{
+		width: 	85%;
+		border-radius: 	40px;
+	}
+	.banner-caption p,
+	.rec-con p,
+	.common-header p,
+	.ceo-section .container .inn p{
+		font-size: 	18px;
+	}
+	.voice-section .col-md-3{
+		padding:0 20px;
+	}
+	.voice-section .col-md-3:nth-child(2),
+	.voice-section .col-md-3:nth-child(3),
+	.voice-section .col-md-3:nth-child(4),
+	.voice-section .col-md-3:nth-child(5){
+		margin-top:0;
+	}
+	.Reimagine-sec video{
+		height: 	150vh;
+	}
+	.ceo-section{
+		height:unset;
+	}
+	.ceo-section .container .inn{
 		width: 	100%;
+		padding:2rem 0;
 	}
-	.banner-sec{
-		height: 300px;
-		background-size: cover;
-	}
-	.banner-heading{
-		width: 100%;
-		    xtransform: translateX(-48%) translateY(-50%);
-	}
-	.breadcrum {
-    	margin-top: 1rem;
-	}
-	.banner-heading h1 {
-    	font-size: 20px;
-	}
-	.banner-heading h1 img {
-    width: 46px;
-    margin-right: 10px;
-	}
-	.sub-heading{
-		text-align: justify;
-	}
-	.single-course-section .singer-details,
-	.intro-inner .heading{
-		padding-top: 1rem;
-	}
-	.intro-inner p{
-		width: 100%;
-	}
-	.single-course-section .singer-details .singer-name h2 {
-    	font-size: 17px;
-	}
-	.single-course-section .singer-para p, .about-content p, .testimonial p, .intro-inner p, .testimonial-section .testi-inner p{
-		min-height: unset;
-		height: unset;
-		text-align: justify;
-	}
-	.single-course-section .singer-para p.cost{
-		font-size: 20px;
-	}
-	.testimonial-section .testi-inner p{
+	.vbt{
 		text-align: center;
 	}
-	.menu-footer ul{
-		flex-wrap: wrap;
-	}
-	.menu-footer ul li a{
-		display: block;
-		margin: 1rem;
-	}
-	.bg_1 p{
-		line-height: 2;
-	}
-	.heading{
-	    padding-top:0;
-	}
-	.testimonial .carousel-control-next {
-    		right: 108px;
-    		top: 25rem;  
-	}
-	.testimonial .carousel-control-prev {
-    left: 111px;
-    top: 25rem;
-    }
-    .techer-sec form {
-        width:100% !important;
-    }
+
 }
