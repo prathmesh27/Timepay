@@ -1278,12 +1278,12 @@ h2{
 .nav-padding-top{
   padding-top:  127px;
 }
-.nav-padding-top .col-md-3{
+.blog-section-listing .col-md-3{
     padding:  10px ;
 }
-.nav-padding-top  .col-md-3:nth-child(2),
-.nav-padding-top  .col-md-3:nth-child(3),
-.nav-padding-top  .col-md-3:nth-child(4){
+.blog-section-listing  .col-md-3:nth-child(2),
+.blog-section-listing  .col-md-3:nth-child(3),
+.blog-section-listing  .col-md-3:nth-child(4){
   margin:   0;
 }
 .blog-inner .tags a{
