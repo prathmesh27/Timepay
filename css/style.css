@@ -743,9 +743,19 @@ video {
 	margin-top: 3rem;
   position: relative;
 }
+.fri{
+  display:  none;
+}
   .fri,
   .explore-mobile-view{
-    display: none;
+    zdisplay: none;
+  }
+  .explore-mobile-view{
+    position: absolute;
+    display: block;
+    width: 75px;
+    right: 0;
+    top:-40px;
   }
 .voice-section	.col-md-3:nth-child(2){
 	margin-top: 5rem;
@@ -761,7 +771,9 @@ video {
 }
 .voice-section	.voice-inner-card .voice-inner-content{
 	padding: 1rem 0;
+  position:   relative  ;
 }
+.explore-mobile-view{}
 .voice-section	.voice-inner-card .voice-inner-content h3,
 .case-study .section-padding .screenshot_slider .item h3{
 	font-size: 12px;
@@ -828,7 +840,7 @@ video {
 .banner-caption h1{
   color: #000;
   line-height:  1.1;
-  font-size: 60px;
+  font-size: 50px;
   font-weight: bold;
 }
 .banner-caption p{
@@ -1262,4 +1274,44 @@ h2{
 }
 .vbt{
   text-align: right;
+}
+.nav-padding-top{
+  padding-top:  127px;
+}
+.nav-padding-top .col-md-3{
+    padding:  10px ;
+}
+.nav-padding-top  .col-md-3:nth-child(2),
+.nav-padding-top  .col-md-3:nth-child(3),
+.nav-padding-top  .col-md-3:nth-child(4){
+  margin:   0;
+}
+.blog-inner .tags a{
+    background: var(--color-blue-logo);
+    color:  #fff;
+    cursor:   pointer;
+    margin-right:   10px;
+    padding: .7rem 1rem;
+    display:  inline-block  ;
+    margin:   2rem 0;
+    border-radius:10px;
+}
+.blog-inner .tags a:hover{
+  color:#fff;
+  background:   #2d649b;
+}
+.blog-inner .blogimg{
+  border-radius:20px;
+}
+.blog-inner{
+  margin-bottom:  5rem;
+}
+.blog-inner  .date{
+  color:  #000;
+  margin:   1rem 0;
+  font-size:  15px;
+}
+.blog-inner  h2{
+      font-size: 23px;
+    font-weight: 600;
 }
